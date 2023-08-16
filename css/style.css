@@ -18,6 +18,8 @@ h1{
 
 #listap{
     list-style-type: none;
+    margin-right: 40px;
+    font-size: 30px;
 }
 
 #barra-superior {
