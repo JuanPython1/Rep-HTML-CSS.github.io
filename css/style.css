@@ -1,0 +1,84 @@
+h1{
+    font-size: 50px;
+}
+
+.Titulo{
+    color:rgb(38, 105, 163)
+}
+#Centro{ 
+    position:fixed;  
+    text-align: center;  
+    top: 17%;
+    left: 10%;
+    bottom: 17%;
+    right: 13.2%;
+    background-color: rgb(235, 158, 151);
+    z-index: 0;
+}
+
+#listap{
+    list-style-type: none;
+}
+
+#barra-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 80%;
+    width: 100%;
+    background-color: #6c6c6c;
+    z-index: 2;
+  }
+
+  #footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: #6c6c6c;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #barra-izq{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #ccc;
+    z-index: 1;
+  }
+
+  #barra-der{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+
+    bottom: 17.2%;
+    background-color: #ccc;
+    padding: 10px;
+    z-index: 4;
+  }
+
+
+
+#navegador a:link{
+    color: rgb(253, 90, 54);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#navegador a:visited{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#navegador a:hover{
+    color: aquamarine;
+
+}
